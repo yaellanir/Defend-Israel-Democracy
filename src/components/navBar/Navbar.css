@@ -1,0 +1,39 @@
+.navbar-main{
+  background-color: rgb(244, 244, 245);
+  height: 55px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:0 15px;
+  z-index:10;
+  border-top: 1px solid black;
+  filter: drop-shadow(0px 3px 3px rgba(0, 0, 0, 0.8));
+  font-family: system-ui,-apple-system,system-ui,"Segoe UI",Roboto,Ubuntu,"Helvetica Neue",sans-serif;
+}
+
+.link{
+  color: rgba(5, 108, 177, 0.897);
+  text-shadow: none;
+  font-weight: 600;
+}
+
+.logo{
+  color:  rgba(5, 108, 177, 0.897);
+}
+
+.links-container{
+  display: flex;
+  gap:1rem;
+  color: rgba(5, 108, 177, 0.897);
+}
+
+.link:hover {
+    text-shadow: rgba(255, 255, 255, .2) 0 3px 15px inset, rgba(0, 0, 0, .1) 0 3px 5px, rgba(0, 0, 0, .1) 0 10px 13px;
+    transform: scale(1.08);
+}
+
+/* @media (max-width: 500px) {
+  .link {
+    display:none;
+  }
+} */

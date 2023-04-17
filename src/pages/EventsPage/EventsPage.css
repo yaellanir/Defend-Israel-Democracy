@@ -1,0 +1,16 @@
+.events-wrapper {
+  height: 100vh;
+  /* background-image: url(../../imgs/flag.jpg); */
+  background-color: #222;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.eventsText {
+  color: #fff;
+  font-size: 25px;
+  font-size: clamp(1.875rem, 0.3125rem + 5vw, 3.125rem);
+  text-shadow: black 2px 2px 2px;
+  padding-top: 50px;
+}
