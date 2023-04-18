@@ -25,19 +25,19 @@ function Navbar() {
           <span></span>
           <span></span>
           <ul id="menu">
-            <a href="#">
+            <a href="#home">
               <li>Home</li>
             </a>
             <a href="#">
               <li>Support</li>
             </a>
-            <a href="#">
+            <a href="#mailing">
               <li>Connect</li>
             </a>
-            <a href="#">
+            <a href="#events">
               <li>Events</li>
             </a>
-            <a href="#">
+            <a href="#about">
               <li>About</li>
             </a>
           </ul>

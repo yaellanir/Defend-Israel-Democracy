@@ -10,28 +10,28 @@ import "./Homepage.css";
 
 function Homepage() {
   return (
-    <div className="homepage-main">
-        <div>
-          <img
-            className="logoImg"
-            src={logo}
-            alt="logoImg"
-            style={{ height: "150px" }}
-          />
-        </div>
-        <div className="text">Defend Israeli Democracy</div>
-        <video
-          className="video"
-          src={video}
-          controls="controls"
-          autoPlay="true"
+    <div id="home" className="homepage-main">
+      <div>
+        <img
+          className="logoImg"
+          src={logo}
+          alt="logoImg"
+          style={{ height: "150px" }}
         />
-        <div className="buttons-section">
-          <Donate />
-          <MailingList />
-          <EventsBtn />
-        </div>
-        <SocialMedia />
+      </div>
+      <div className="text">Defend Israeli Democracy</div>
+      <video
+        className="video"
+        src={video}
+        controls="controls"
+        autoPlay="true"
+      />
+      <div className="buttons-section">
+        <Donate />
+        <MailingList />
+        <EventsBtn />
+      </div>
+      <SocialMedia />
     </div>
   );
 }
