@@ -1,8 +1,8 @@
 import React from "react";
-import './Donate.css'
+import "./Donate.css";
 
 function Button() {
-  return <div className="button">Donate</div>;
+  return <div className="button">Support</div>;
 }
 
 export default Button;

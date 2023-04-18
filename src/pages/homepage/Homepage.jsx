@@ -2,21 +2,15 @@ import React from "react";
 import Donate from "../../components/Donate/Donate";
 import MailingList from "../../components/Mailing-list-btn/MailingList";
 import EventsBtn from "../../components/EventsBtn/EventsBtn";
-import logo from "../../imgs/did-logo-png.png";
+// import logo from "../../imgs/did-logo-png.png";
+import logo from "../../imgs/whitelogobig.png";
 import SocialMedia from "../../components/SocialMedia/SocialMedia";
-import video from "../../imgs/video.mp4";
+import video from "../../imgs/video1.mp4";
 import "./Homepage.css";
 
 function Homepage() {
   return (
     <div className="homepage-main">
-      <div className="wrapper">
-        <video
-          className="video"
-          src={video}
-          controls="controls"
-          autoPlay="true"
-        />
         <div>
           <img
             className="logoImg"
@@ -26,13 +20,18 @@ function Homepage() {
           />
         </div>
         <div className="text">Defend Israeli Democracy</div>
+        <video
+          className="video"
+          src={video}
+          controls="controls"
+          autoPlay="true"
+        />
         <div className="buttons-section">
           <Donate />
           <MailingList />
           <EventsBtn />
         </div>
         <SocialMedia />
-      </div>
     </div>
   );
 }
