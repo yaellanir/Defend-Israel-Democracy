@@ -131,9 +131,4 @@ const CustomForm = ({
   );
 };
 
-{
-  /* <form action="https://did.us21.list-manage.com/subscribe/post" method="POST">
-    <input type="hidden" name="u" value="07dfb56195e15671d0198d64c">
-    <input type="hidden" name="id" value="d19ddeac6b"> */
-}
 export default Mailchimp;
