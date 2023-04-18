@@ -32,7 +32,7 @@ function SocialMedia() {
       </a>
       <a
         className="linkSocial"
-        href="https://www.linkedin.com/defend-israeli-democracy-did?_l=en_US"
+        href="https://www.linkedin.com/company/defend-israeli-democracy-did/"
         target="_blank"
         rel="noreferrer"
       >

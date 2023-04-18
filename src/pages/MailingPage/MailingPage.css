@@ -1,61 +1,38 @@
 .mailing-wrapper {
   height: 100vh;
-  background-image: url(../../imgs/flag.jpg);
-  background-image: url(../../imgs/collage.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  /* background-image: url(../../imgs/flag.jpg); */
+  /* background-image: url(../../imgs/collage.png); */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  /* background-position: center; */
+  background-color: #fff;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+  /* border: 1px solid white; */
 }
 
 .mailing-text {
-  color: #fff;
-  font-size: 25px;
+  color: #1375bc;
+  /* font-size: 25px; */
   font-size: clamp(1.875rem, 0.3125rem + 5vw, 3.125rem);
-  text-shadow: black 2px 2px 2px;
-  padding-top: 25px;
-}
-
-.form-wrapper {
-  background-color: #ffffffa4;
-  position: absolute;
-  bottom: -90%;
-  /* margin-top: 470px; */
-  width: 100%;
-  height: 35%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.inputs-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 5px;
-  padding-top: 5px;
-}
-
-.labelInput {
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-  gap: 5px;
+  /* text-shadow: black 2px 2px 2px; */
+  padding-top: 35px;
 }
 
 .submitBtn {
   margin-top: 15px;
-  background-color: #92c7ec;
+  background-color: #1375bc;
   border: 0;
   border-radius: 50px;
   color: #fff;
   cursor: pointer;
   display: inline-block;
-  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Roboto, Ubuntu,
-    "Helvetica Neue", sans-serif;
+  font-family: Oswald, sans-serif;
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 400;
+  letter-spacing: 1px;
   outline: 0;
   padding: 5px 12px;
   position: relative;
@@ -65,8 +42,8 @@
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  text-shadow: black 2px 1px 1px;
-  box-shadow: black 2px 2px 1px;
+  /* text-shadow: black 2px 1px 1px; */
+  /* box-shadow: black 2px 2px 1px; */
 }
 
 .submitBtn:before {

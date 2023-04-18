@@ -2,9 +2,11 @@
   background-color: #1375BC;
   /* height: calc(100vh - 50px); */
   height: 100vh;
+  /* min-height: calc(100vh - 55px); */
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  padding-top: 150px;
   justify-content: center;
   align-items: center;
   color: #1375BC;
@@ -19,7 +21,7 @@
   margin: 10px;
   letter-spacing: 0.1rem;
   line-height: 3rem;
-  text-shadow: 2px 2px black;
+  /* text-shadow: 2px 2px black; */
   /* padding-top: 5%; */
 }
 .buttons-section {

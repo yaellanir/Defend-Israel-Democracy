@@ -1,10 +1,10 @@
 .about-wrapper {
   height: 100vh;
   /* background-image: url(../../imgs/flag.jpg); */
-  background-color: #555;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  /* background-color: #555; */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  /* background-position: center; */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -19,6 +19,7 @@
   border: #fff;
   height: 70%;
   background-color: #fff;
+  margin-top: -150px;
 }
 
 .section2 {
@@ -36,22 +37,39 @@
 .aboutText {
   padding-top: 20px;
   color: #1375bc;
-  font-size: 25px;
+  /* font-size: 25px; */
   font-size: clamp(1.875rem, 0.3125rem + 5vw, 3.125rem);
-  text-shadow: rgb(88, 87, 87) 1px 1px 1px;
+  /* text-shadow: rgb(88, 87, 87) 1px 1px 1px; */
+  font-weight: 400;
 }
 
 .ourPartnersText {
   padding-top: 20px;
   color: #fff;
-  font-size: 25px;
+  /* font-size: 25px; */
   font-size: clamp(1.875rem, 0.3125rem + 5vw, 3.125rem);
-  text-shadow: black 2px 2px 2px;
+  /* text-shadow: black 2px 2px 2px; */
+  font-weight: 400;
 }
 
 .aboutP {
   width: 80%;
   line-height: 2;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 400;
+}
+
+@media (max-width: 768px) {
+  .section1 {
+    margin-top: 0px;
+    margin: 10px;
+    height: 65%;
+  }
+  .aboutP {
+    line-height: 1.5;
+  }
+  .aboutText {
+    padding-top: 10px;
+    line-height: 1.2;
+  }
 }

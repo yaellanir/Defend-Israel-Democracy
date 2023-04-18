@@ -18,6 +18,16 @@ function Navbar() {
         <a href="#about">
           <div className="link">About</div>
         </a>
+        <a href="#events">
+          <div className="link">Events</div>
+        </a>
+        <a href="#mailing">
+          <div className="link">Connect</div>
+        </a>
+        {/* <a href="#mailing"> */}
+        <div className="link">Support</div>
+        {/* </a> */}
+        <div></div>
       </div>
       <div id="menuToggle" className="menuToggle">
         <input type="checkbox" />

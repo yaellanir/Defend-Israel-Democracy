@@ -1,0 +1,8 @@
+.mc__field-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.mc__field-container{
+  gap:15px;
+}
