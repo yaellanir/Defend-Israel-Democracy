@@ -18,34 +18,33 @@ function Navbar() {
         <a href="#about">
           <div className="link">About</div>
         </a>
-        </div>
-        <div id="menuToggle" className="menuToggle">
-          <input type="checkbox" />
-          <span></span>
-          <span></span>
-          <span></span>
-          <ul id="menu">
-            <a href="#home">
-              <li>Home</li>
-            </a>
-            <a href="#">
-              <li>Support</li>
-            </a>
-            <a href="#mailing">
-              <li>Connect</li>
-            </a>
-            <a href="#events">
-              <li>Events</li>
-            </a>
-            <a href="#about">
-              <li>About</li>
-            </a>
-          </ul>
-        </div>
-        {/* <div className="hamburger">&#9776;</div> */}
-        {/* <div className="link">Mailing list</div>
+      </div>
+      <div id="menuToggle" className="menuToggle">
+        <input type="checkbox" />
+        <span></span>
+        <span></span>
+        <span></span>
+        <ul id="menu">
+          <a href="#home">
+            <li>Home</li>
+          </a>
+
+          <li>Support</li>
+
+          <a href="#mailing">
+            <li>Connect</li>
+          </a>
+          <a href="#events">
+            <li>Events</li>
+          </a>
+          <a href="#about">
+            <li>About</li>
+          </a>
+        </ul>
+      </div>
+      {/* <div className="hamburger">&#9776;</div> */}
+      {/* <div className="link">Mailing list</div>
         <div className="link">Events</div> */}
-      
     </div>
   );
 }
