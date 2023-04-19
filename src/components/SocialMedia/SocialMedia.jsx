@@ -12,7 +12,7 @@ function SocialMedia() {
         target="_blank"
         rel="noreferrer"
       >
-        <i class="fa-brands fa-facebook fa-2xl"></i>
+        <i className="fa-brands fa-facebook fa-2xl"></i>
       </a>
       <a
         className="linkSocial"
@@ -20,7 +20,7 @@ function SocialMedia() {
         target="_blank"
         rel="noreferrer"
       >
-        <i class="fa-brands fa-twitter fa-2xl"></i>
+        <i className="fa-brands fa-twitter fa-2xl"></i>
       </a>
       <a
         className="linkSocial"
@@ -28,7 +28,7 @@ function SocialMedia() {
         target="_blank"
         rel="noreferrer"
       >
-        <i class="fa-brands fa-whatsapp fa-2xl"></i>
+        <i className="fa-brands fa-whatsapp fa-2xl"></i>
       </a>
       <a
         className="linkSocial"
@@ -36,7 +36,7 @@ function SocialMedia() {
         target="_blank"
         rel="noreferrer"
       >
-        <i class="fa-brands fa-linkedin-in fa-2xl"></i>
+        <i className="fa-brands fa-linkedin-in fa-2xl"></i>
       </a>
     </div>
   );

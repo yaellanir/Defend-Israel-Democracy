@@ -24,7 +24,7 @@ function Homepage() {
         className="video"
         src={video}
         controls="controls"
-        autoPlay="true"
+        // autoPlay={true}
       />
       <div className="buttons-section">
         <Donate />
